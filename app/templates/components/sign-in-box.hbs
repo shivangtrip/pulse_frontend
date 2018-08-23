@@ -1,0 +1,22 @@
+<div id="signIn">
+    {{#if errorInSignIn}}
+    <div id="errorSignIn">
+        Oops! Looks Like You Entered The Wrong {{errorMessage}}
+    </div>
+    {{/if}}
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    {{input type="email" class="form-control" value=id id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"}}
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    {{input type="password" class="form-control" value=password id="inputPassword" placeholder="Password"}}
+  </div>
+  <button {{action "getLoginData"}} type="submit" class="btn btn-primary">Log In</button>
+{{#link-to 'signup' class="button"}}
+    <button type="submit" class="btn btn-primary">Signup</button>
+  {{/link-to}}
+</form>
+</div>

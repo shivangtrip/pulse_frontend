@@ -1,0 +1,84 @@
+#grad1 {
+    height: 740px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(rgb(206, 9, 224), rgb(46, 3, 63)); /* Standard syntax (must be last) */
+    color: aliceblue;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 740px;
+}
+
+#logoutButton{
+    color: beige;
+    
+}
+form {
+    margin-top: 5px;
+}
+#errorSignIn {
+    border-color: red;
+    color: red;
+    
+}
+#badLogin {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+#right-pane {
+    height: 740px;
+    
+    align-items: center;
+    
+}
+#signIn {
+    margin-top: 70%;
+    
+    
+}
+.row {
+    height: 100%;
+}
+html,body {
+    height:100%;
+    margin:0;
+  }
+  div#ember344.ember-view{
+      height: 100%;
+  }
+  #addExpense {
+      background-color: #007bff;
+      color: white;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 30px;
+      position: fixed;
+      top: 15%;
+      left: 10%;
+      z-index: 2;
+      border-radius: 25px;
+      border-color: #007bbf;
+      border-width: 3px;
+     
+  }
+  #addExpense:hover{
+    background-color: #0069d9;
+    cursor: pointer;
+  }
+  input#urlList {
+      
+      width: 70%;
+      height: 50px;
+  }
+  div#urlInputHolder {
+      padding: 40px;
+  }
+  div#table-holder {
+      padding: 40px;
+  }
+  button#btn-submit-url {
+      height: 40px;
+      width: 10%;
+  }

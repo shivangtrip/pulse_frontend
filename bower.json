@@ -1,0 +1,8 @@
+{
+  "name": "splitapp",
+  "dependencies": {
+    "ember": "~2.8.0",
+    "ember-cli-shims": "0.1.1",
+    "js-cookie": "^2.2.0"
+  }
+}
